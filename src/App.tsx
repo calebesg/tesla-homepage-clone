@@ -1,3 +1,11 @@
+import { Page } from './components/Page'
+import { GlobalStyles } from './styles/GlobalStyles'
+
 export function App() {
-  return <div className="App"></div>
+  return (
+    <>
+      <Page />
+      <GlobalStyles />
+    </>
+  )
 }

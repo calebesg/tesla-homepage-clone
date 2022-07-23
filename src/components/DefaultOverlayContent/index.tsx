@@ -15,7 +15,7 @@ export function DefaultOverlayContent({ label, description }: Props) {
 
       <Buttons>
         <button>Custom Order</button>
-        <button>Existing Inventory</button>
+        <button className="white">Existing Inventory</button>
       </Buttons>
     </Container>
   )

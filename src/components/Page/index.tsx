@@ -2,13 +2,7 @@ import { DefaultOverlayContent } from '../DefaultOverlayContent'
 import { ModelSection, ModelsWrapper } from '../Model'
 import { Container } from './styles'
 
-const models = [
-  'Model One',
-  'Model two',
-  'Model Three',
-  'Model Four',
-  'Model Five',
-]
+const models = ['Model 3', 'Model S', 'Model X', 'Model Y']
 
 export function Page() {
   return (

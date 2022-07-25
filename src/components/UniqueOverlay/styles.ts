@@ -22,7 +22,7 @@ export const Header = styled.header`
 `
 
 export const Logo = styled(LogoSVG)`
-  height: 1.1rem;
+  height: 1rem;
   cursor: pointer;
 `
 

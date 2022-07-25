@@ -40,7 +40,9 @@ export const Buttons = styled.div`
     width: 80%;
     background: #1a1720;
     color: white;
-    opacity: 0.8;
+    opacity: 0.9;
+    transition: opacity 0.2s ease-out;
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.3);
 
     font-size: 0.75rem;
     font-weight: 500;
@@ -54,8 +56,11 @@ export const Buttons = styled.div`
 
     &.white {
       color: #1a1720;
-      background: white;
-      opacity: 0.65;
+      background-color: white;
+    }
+
+    &:hover {
+      opacity: 1;
     }
   }
 
